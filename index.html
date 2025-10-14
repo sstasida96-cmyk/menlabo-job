@@ -1,0 +1,180 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>想いやスキルが収入に繋がる理念マッチ転職</title>
+    <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <div class="app-container">
+        <!-- Main Content -->
+        <main class="main-content">
+            <div class="form-container">
+                <!-- Progress Indicator -->
+                <div class="progress-indicator">
+                    <div class="step active" data-step="1">01</div>
+                    <div class="step" data-step="2">02</div>
+                    <div class="step" data-step="3">03</div>
+                    <div class="step" data-step="4">04</div>
+                    <div class="step" data-step="5">05</div>
+                </div>
+
+                <!-- Form Steps -->
+                <form id="multiStepForm" class="multi-step-form">
+                    
+                    <!-- Step 1: 転職重視項目 -->
+                    <div class="form-step active" data-step="1">
+                        <h2 class="step-title">想いやスキルが収入に繋がる理念マッチ転職</h2>
+                        <p class="step-description">転職の時に重視するのは？</p>
+                        
+                        <div class="priority-grid">
+                            <label class="priority-option">
+                                <input type="radio" name="priority" value="vision">
+                                <span class="priority-text">ビジョン</span>
+                            </label>
+                            <label class="priority-option">
+                                <input type="radio" name="priority" value="fulfillment">
+                                <span class="priority-text">やりがい</span>
+                            </label>
+                            <label class="priority-option selected">
+                                <input type="radio" name="priority" value="salary">
+                                <span class="priority-text">給与</span>
+                            </label>
+                            <label class="priority-option">
+                                <input type="radio" name="priority" value="location">
+                                <span class="priority-text">勤務地</span>
+                            </label>
+                            <label class="priority-option">
+                                <input type="radio" name="priority" value="atmosphere">
+                                <span class="priority-text">雰囲気</span>
+                            </label>
+                            <label class="priority-option">
+                                <input type="radio" name="priority" value="benefits">
+                                <span class="priority-text">福利厚生</span>
+                            </label>
+                        </div>
+                    </div>
+
+                    <!-- Step 2: 資格選択 -->
+                    <div class="form-step" data-step="2">
+                        <h2 class="step-title">想いやスキルが収入に繋がる理念マッチ転職</h2>
+                        <p class="step-description">持っている資格を教えてください。</p>
+                        <p class="step-note">※複数選択可</p>
+                        
+                        <div class="qualification-grid">
+                            <label class="qualification-option">
+                                <input type="checkbox" name="qualifications" value="service_manager">
+                                <span class="qualification-text">サービス管理責任者</span>
+                            </label>
+                            <label class="qualification-option">
+                                <input type="checkbox" name="qualifications" value="care_worker">
+                                <span class="qualification-text">介護福祉士</span>
+                            </label>
+                            <label class="qualification-option selected">
+                                <input type="checkbox" name="qualifications" value="child_development_manager">
+                                <span class="qualification-text">児童発達管理責任者</span>
+                            </label>
+                            <label class="qualification-option">
+                                <input type="checkbox" name="qualifications" value="childcare_worker">
+                                <span class="qualification-text">保育士</span>
+                            </label>
+                            <label class="qualification-option">
+                                <input type="checkbox" name="qualifications" value="counselor">
+                                <span class="qualification-text">相談支援専門員</span>
+                            </label>
+                            <label class="qualification-option selected">
+                                <input type="checkbox" name="qualifications" value="social_worker">
+                                <span class="qualification-text">社会福祉士</span>
+                            </label>
+                            <label class="qualification-option">
+                                <input type="checkbox" name="qualifications" value="nurse">
+                                <span class="qualification-text">看護師</span>
+                            </label>
+                            <label class="qualification-option">
+                                <input type="checkbox" name="qualifications" value="other">
+                                <span class="qualification-text">その他</span>
+                            </label>
+                        </div>
+                    </div>
+
+                    <!-- Step 3: 個人情報 -->
+                    <div class="form-step" data-step="3">
+                        <h2 class="step-title">想いやスキルが収入に繋がる理念マッチ転職</h2>
+                        <p class="step-description">あなたについて教えてください。</p>
+                        
+                        <div class="personal-info-form">
+                            <div class="form-field">
+                                <label class="form-label">(1) お住まいの地域</label>
+                                <input type="text" class="form-input" placeholder="都道府県を入力" name="address">
+                            </div>
+                            <div class="form-field">
+                                <label class="form-label">(2) お名前</label>
+                                <input type="text" class="form-input" placeholder="フルネーム入力" name="name">
+                            </div>
+                            <div class="form-field">
+                                <label class="form-label">(3) 年齢</label>
+                                <input type="number" class="form-input" placeholder="年齢を入力" name="age" min="18" max="100">
+                            </div>
+                            <div class="form-field">
+                                <label class="form-label">(4) 電話番号</label>
+                                <input type="tel" class="form-input" placeholder="000-0000-0000" name="phone">
+                            </div>
+                            <div class="form-field">
+                                <label class="form-label">(5) メールアドレス</label>
+                                <input type="email" class="form-input" placeholder="menlabo@job.co.jp" name="email">
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Step 4: 利用規約 -->
+                    <div class="form-step" data-step="4">
+                        <h2 class="step-title">利用規約に同意する</h2>
+                        
+                        <div class="terms-container">
+                            <div class="terms-text-area">
+                                <p>ダミーテキストダミーテキストダミーテキストダミーテキストダミーテキストダミーテキストダミーテキストダミーテキストダミーテキストダミーテキストダミーテキストダミーテキストダミーテキストダミーテキストダミーテキストダミーテキストダミーテキストダミーテキストダミーテキストダミーテキストダミーテキストダミーテキストダミーテキストダミーテキストダミーテキストダミーテキストダミーテキストダミーテキストダミーテキストダミーテキストダミーテキストダミーテキストダミーテキストダミーテキストダミーテキストダミーテキストダミーテキストダミーテキストダミーテキスト</p>
+                            </div>
+                            
+                            <div class="checkbox-container">
+                                <label class="checkbox-option">
+                                    <input type="checkbox" name="terms_agreement" required>
+                                    <span class="checkbox-text">利用規約に同意する</span>
+                                </label>
+                                <label class="checkbox-option">
+                                    <input type="checkbox" name="agent_service">
+                                    <span class="checkbox-text">エージェントサービスも申し込む</span>
+                                </label>
+                            </div>
+                            
+                            <div class="promotion-text">
+                                今だけアマギフ500円プレゼント！
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Step 5: サンクスページ -->
+                    <div class="form-step" data-step="5">
+                        <div class="thanks-container">
+                            <div class="thanks-icon"></div>
+                            <h2 class="thanks-title">ご登録ありがとうございます！</h2>
+                            <p class="thanks-description">後日登録URLをお送りさせていただきます。</p>
+                        </div>
+                    </div>
+
+                </form>
+
+                <!-- Navigation Buttons -->
+                <div class="nav-buttons">
+                    <button type="button" class="btn-back" id="backBtn" style="display: none;">戻る</button>
+                    <button type="button" class="btn-next" id="nextBtn">次へ</button>
+                    <button type="submit" class="btn-submit" id="submitBtn" style="display: none;">登録完了！</button>
+                </div>
+            </div>
+        </main>
+    </div>
+
+    <script src="js/script.js"></script>
+</body>
+</html>
